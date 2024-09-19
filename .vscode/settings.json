@@ -1,0 +1,33 @@
+{
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.runtime.special": [],
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library"
+    ],
+    "Lua.diagnostics.globals": [
+        "levelgen",
+        "colMulti",
+        "Boxcol",
+        "boxcols",
+        "spawncords",
+        "createcollisionblock",
+        "blockspawn",
+        "width",
+        "wrapped",
+        "all_occupied",
+        "playerspawn",
+        "playerMovUpdate",
+        "playermove",
+        "player_draw",
+        "leveldata"
+    ],
+    "Lua.diagnostics.disable": [
+        "empty-block"
+    ],
+    "code-runner.executorMap": {
+        "lua": "love ."
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.cwd": "${workspaceFolder}"
+
+}
